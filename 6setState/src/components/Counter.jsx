@@ -34,13 +34,15 @@ import React, { Component } from 'react'
   render() {
     return (
       <div className=' ml- 36 p-8 rounded w-6/12 bg-gray-300'>
-        <h1 className='text-green-800 text-2xl'>Hi there and welcome</h1>
+        <h1 className='text-green-900 text-4xl'>Hi there </h1>
+
+        <h1 className='text-green-600 text-2xl'> change the state by 1</h1>
 
     <h1 className="text-4xl mb-9 text-blue-500">{this.state.count}</h1>   
 
-    <button onClick={() => this.increament()} className=" p-2 rounded mr-4 bg-green-400 text-white">Increament</button>
-     <button onClick={()=> this.reset()} className=" p-2 rounded mr-4 bg-green-400 text-white">Reset</button>
-    <button onClick={() => this.decreament()} className=" p-2 rounded mr-4 bg-green-400 text-white">Decreament</button>    
+    <button onClick={() => this.increament()} className=" p-2 rounded mr-4 bg-green-800 text-white">Increament</button>
+     <button onClick={()=> this.reset()} className=" p-2 rounded mr-4 bg-green-800 text-white">Reset</button>
+    <button onClick={() => this.decreament()} className=" p-2 rounded mr-4 bg-green-800 text-white">Decreament</button>    
 
 
       </div>
