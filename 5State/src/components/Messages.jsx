@@ -23,7 +23,7 @@ class Message extends Component {
           className="text-white text-3xl p-2 rounded bg-blue-500 mt-4 hover:text-black"
         >
           Subscribe
-        </button>
+        </button>+
       </div>
     );
   }
