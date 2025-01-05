@@ -25,6 +25,11 @@ How to import and export components.
 And also we talked about folder structure in react inluding how the app.jsx ,  main.jsx and index.html are linked to gether to work as whole
 
 
+# --------- You can generate a component snippets in two ways
+                  #- using rfce for funcitonal component
+                  #- using rce for class component
+
+
 
 
 
