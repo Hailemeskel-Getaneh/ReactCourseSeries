@@ -6,6 +6,7 @@ This program is about how to use event handlers in class component.
    2. using arrow function in the render method but you need to have parentesis and call it as 
         function as follow.
              onClick = {() => this.changeHandler()} 
+# the second one is good choice for passing parameters
 
    3. binding the handler in the contructur and use it as this.changeHandler in the render method
          this.changeHandler = this.changeHandler.bind(this) adn call it as
