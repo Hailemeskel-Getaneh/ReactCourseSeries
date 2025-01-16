@@ -10,20 +10,16 @@ import React, { Component } from 'react'
       }
     }
 
-
-    
   render() {
-    if(this.state.isLogedIn){
-      return <h3>Welcom Haile</h3>
-  }
-  else{
-    return <h3>Welcome Guest</h3>
-  }
-    return (
-      <div>
-        
-      </div>
-    )
+      if(this.state.isLogedIn){
+
+        return <h3>Welcom Haile</h3>
+    }
+    
+    else{
+      return <h3>Welcome Guest</h3>
+    }
+  
   }
 }
 
