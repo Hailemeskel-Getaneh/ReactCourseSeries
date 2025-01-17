@@ -13,7 +13,9 @@ function ListRendering() {
     <div>
         <h2>The following is names list</h2>
       {nameList}
+      
       <h2>The following is persons list</h2>
+
     {PersonsList}
     </div>
   )
