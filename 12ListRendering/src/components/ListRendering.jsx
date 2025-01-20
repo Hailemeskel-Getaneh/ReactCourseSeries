@@ -10,6 +10,7 @@ function ListRendering() {
     const PersonsList = persons.map(person => <li className=''>I am {person.name} . I am studing {person.department}</li>)
 
   return (
+    
     <div>
         <h2>The following is names list</h2>
       {nameList}

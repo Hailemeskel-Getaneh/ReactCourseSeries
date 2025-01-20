@@ -7,3 +7,4 @@ const persons = [
   ];
 
   export default persons
+  
